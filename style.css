@@ -16,3 +16,26 @@
   font-size: 30px;
   text-align: center;
 }
+
+#color-manager {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 5px;
+  top: 5px;
+  height: 300px;
+  width: 150px;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+#color-picker div {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
