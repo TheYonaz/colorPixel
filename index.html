@@ -8,8 +8,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="grid-container">
-    </div>
+    <div id="grid-container"></div>
+    <div>
+      <input
+          id="value"
+          type="text"
+          placeholder="size of Board"
+          value="0"
+          onchange="create(this.value)"
+        />
+        <button>Set Size</button></div>
+      </div>
     <div id="color-manager">
       <div>
         <h4>active color:</h4>
@@ -19,8 +28,9 @@
         <div class="color" style="background-color: blue">blue</div>
         <div class="color" style="background-color: red">red</div>
         <div class="color" style="background-color: green">green</div>
+        
       </div>
-    </div>
+      
     <script src="script.js"></script>
   </body>
 </html>
